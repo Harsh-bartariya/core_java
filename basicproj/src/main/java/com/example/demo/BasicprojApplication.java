@@ -24,10 +24,10 @@ This is a great set of questions about the core concepts of the **Spring Framewo
 
 In the Spring Framework, a **Bean** is simply an **object** that is **instantiated, assembled, and managed** by the **Spring IoC Container** (Inversion of Control Container).
 
-| Concept | Explanation | Analogy |
+| Concept | Explanation 
 | :--- | :--- | :--- |
-| **Normal Object** | An object you create and manage yourself using the `new` keyword in your Java code (e.g., `Car myCar = new Car();`). | A **private tool** you buy and keep in your own toolbox. You are responsible for buying it, maintaining it, and lending it out. |
-| **Spring Bean** | An object where the Spring Container takes over responsibility for its entire lifecycle: creation, configuration, dependency injection, and destruction. | A **tool provided by a professional service** (the Spring Container). You simply ask the service for the tool when you need it; you don't worry about how it was made or where it's stored. |
+| **Normal Object** | An object you create and manage yourself using the `new` keyword in your Java code (e.g., `Car myCar = new Car();`). 
+| **Spring Bean** | An object where the Spring Container takes over responsibility for its entire lifecycle: creation, configuration, dependency injection, and destruction.
 
 **The Core Difference:** The difference isn't in the object's code, but in **who manages its lifecycle**. If Spring manages it, it's a **Bean**.
 
